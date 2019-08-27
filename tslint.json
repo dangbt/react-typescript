@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier",
+    "tslint-config-standard"
+  ],
+  "linterOptions": {
+    "exclude": [
+        "bin",
+        "build",
+        "config",
+        "coverage",
+        "node_modules"
+    ]
+  },
+  "jsRules": {},
+  "rules": {
+    "interface-name": false,
+    "jsx-no-lambda": false,
+    "object-literal-sort-keys": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "no-console": [false],
+    "no-any": false,
+    "max-classes-per-file": false,
+    "deprecation": false,
+    "no-unused-variable": true,
+    "ordered-imports": false
+  }
+}
